@@ -2,4 +2,6 @@
 
 This is a chart maker web application built using HTML, CSS, and Javascript.
 
-It allows the user to input values to build either a pie chart or a bar graph. 
+It allows the user to input values to build either a pie chart or a bar graph.
+
+Currently very rough visually. Need to make it look a lot nicer and add some more functions. 
