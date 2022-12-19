@@ -1,6 +1,7 @@
-
+/* Submit function to create chart */
 function submit(){
 
+/* Get values from form */
 var e = document.getElementById("Title").value;
 var d = document.getElementById("Type").value;
 var x = document.getElementById("Item1").value;
@@ -10,7 +11,7 @@ var a = document.getElementById("Count1").value;
 var b = document.getElementById("Count2").value;
 var c = document.getElementById("Count3").value;
 
-
+/*Pie Chart*/
 if (d == "Pie") {
 var xValues = [x, y, z];
 var yValues = [a, b, c];
@@ -43,7 +44,7 @@ var barColors = [
   "#00aba9",
   "#2b5797",
 ];
-
+/*Bar Graph*/
 new Chart("myChart", {
   type: "bar",
   data: {
@@ -64,7 +65,5 @@ new Chart("myChart", {
     }
   }
 });
-} else {
-	alert("Please enter bar or pie");
-}
+} 
 }
