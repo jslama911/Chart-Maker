@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chart maker</title>
+	<link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+	<script src="script.js" defer></script>
+</head>
+
+
+<body>
+	<h1>Chart Maker</h1>
+<div id="chart-container">
+	<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+</div>
+
+<div id="form">
+
+	  <label for="Title"><b>Title</b></label>
+	  <input type="text" placeholder="Enter Title" id="Title" required>
+	  
+	  <label for="Type"><b>Type</b></label>
+	  <select name="Type" id="Type">
+		<option value="Pie">Pie</option>
+		<option value="Bar">Bar</option>
+	  </select>
+	  
+  
+	  <label for="Item1"><b>Item1</b></label>
+	  <input type="text" placeholder="Enter Item 1" id="Item1" required>
+  
+	  <label for="Item2"><b>Item2</b></label>
+	  <input type="text" placeholder="Enter Item 2" id="Item2" required>
+
+	  <label for="Item3"><b>Item3</b></label>
+	  <input type="text" placeholder="Enter Item 3" id="Item3" required>
+
+      <label for="Item4"><b>Item4</b></label>
+	  <input type="text" placeholder="Enter Item 4" id="Item4" required>
+
+        <label for="Item5"><b>Item5</b></label>
+        <input type="text" placeholder="Enter Item 5" id="Item5" required>
+
+        <label for="Item6"><b>Item6</b></label>
+        <input type="text" placeholder="Enter Item 6" id="Item6" required>
+
+        <label for="Item7"><b>Item7</b></label>
+        <input type="text" placeholder="Enter Item 7" id="Item7" required>
+
+	  <label for="Count1"><b>Count of 1</b></label>
+	  <input type="text" placeholder="Enter Count 1" id="Count1" required>
+
+	  <label for="Count2"><b>Count of 2</b></label>
+	  <input type="text" placeholder="Enter Count 2" id="Count2" required>
+
+	  <label for="Count3"><b>Count of 3</b></label>
+	  <input type="text" placeholder="Enter Count 3" id="Count3" required>
+
+      <label for="Count4"><b>Count of 4</b></label>
+	  <input type="text" placeholder="Enter Count 4" id="Count4" required>
+
+      <label for="Count5"><b>Count of 5</b></label>
+    <input type="text" placeholder="Enter Count 5" id="Count5" required>
+
+    <label for="Count6"><b>Count of 6</b></label>
+    <input type="text" placeholder="Enter Count 6" id="Count6" required>
+
+    <label for="Count7"><b>Count of 7</b></label>
+    <input type="text" placeholder="Enter Count 7" id="Count7" required>
+
+    
+    
+
+</div>
+  
+	  <button type="button" class="btn" onclick="submit()">Plot</button>
+
+</body>
+</html>

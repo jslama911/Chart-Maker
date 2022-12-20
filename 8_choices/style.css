@@ -1,5 +1,13 @@
 /*Need to finish the CSS to make it look pretty*/
 
+#form{
+    display: block;
+        font-size:20px;
+        padding:4px 2px;
+        width:150px;
+        margin:2px 0 20px 10px;
+    }
+    
     body{
         background-color: #9d8f8f83;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -19,4 +27,7 @@
         justify-content: center;
     }
     
-    
+    #chart-container{
+        display: flex;
+        justify-content: center;
+    }
